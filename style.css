@@ -35,6 +35,8 @@ body{
     margin-left: 1px;
     width: 160px;
     border-radius: 200px;
+    text-align: left;
+    padding-left: 25px;
 }
 .btndiv5{
     display: flex;
