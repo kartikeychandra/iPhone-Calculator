@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 80px;
+}
+.btn{
+    padding: 40px;
+    width: 70px;
+    height: 76.3px;
+    border-radius: 100%;
+    margin: 6px;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 0;
+    background-color: #333;
+    color: white;
+}
+.btn:active{
+    background-color: grey;
+    transition: 0.5s;
+}
+.btn:focus{
+    transition: 1s;
+}
+.btntop{
+    background-color: #a5a5a5;
+    color: black;
+}
+#zero{
+    margin-left: 1px;
+    width: 160px;
+    border-radius: 200px;
+}
+.btndiv5{
+    display: flex;
+}
+.bottombtn{
+    position: relative;
+    left: 3px;
+    
+}
+.input{
+    width:315px;
+    height: 100px;
+    font-size: 70px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    text-align: right;
+}
+.input:focus{
+    outline: none;
+}
+.btnright{
+    background-color: #fe9505;
+    color: white;
+}
+.btnright:focus{
+    background-color: white;
+    color: #fe9505;
+    transition: 0.8s;
+}
+.btnright:active{
+    background-color: white;
+    opacity: 0.5;
+}
